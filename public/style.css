@@ -1,0 +1,53 @@
+@font-face {
+font-family: 'Phetsarath_OT'; 
+src: url('phetsarath_ot.eot'); 
+src: url('phetsarath_ot.eot?#iefix') format('embedded-opentype'), 
+url('phetsarath_ot.woff2') format('woff2'), 
+url('phetsarath_ot.woff') format('woff'), 
+url('phetsarath_ot.ttf') format('truetype'),
+url('phetsarath_ot.svg#Phetsarath_OT') format('svg'); 
+font-weight: normal;
+font-style: normal; 
+}
+body {
+    /* background-image: url("images/sku_logo.gif"); */
+    background-color: rgb(0, 144, 62);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 255px;
+    font-family: Phetsarath OT;
+}
+.div01 {
+    border: 9px solid #f8f808;
+    padding: 15px;
+}
+
+.div02 {
+    border: 9px solid #e81818;
+    padding: 15px;
+}
+
+.div03 {
+    border: 9px solid #00903e;
+    padding: 15px;
+}
+
+.div04 {
+    border: 9px solid #281868;
+    padding: 15px;
+}
+
+.img {
+    opacity: 0.6;
+}
+
+.img:hover {
+    opacity: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

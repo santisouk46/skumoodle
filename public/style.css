@@ -20,11 +20,13 @@ body {
 }
 .div01 {
     border: 9px solid #f8f808;
+    border-radius: 19px;
     padding: 15px;
 }
 
 .div02 {
     border: 9px solid #e81818;
+    border-radius: 29px;
     padding: 15px;
 }
 
@@ -35,6 +37,7 @@ body {
 
 .div04 {
     border: 9px solid #281868;
+    border-radius: 9px;
     padding: 15px;
 }
 

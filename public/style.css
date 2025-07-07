@@ -48,6 +48,7 @@ body {
 
 .img {
     opacity: 0.6;
+    margin: 15px;
 }
 
 .img:hover {
